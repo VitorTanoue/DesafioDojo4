@@ -1,0 +1,50 @@
+exit
+reinstall_apps
+start_test_server_in_background
+exit
+start_test_server_in_background
+touch("* id:'consulta'")
+touch("* text:'ABC0101'")
+touch("* id:'ano'")
+
+touch("* id:'ano'")
+press_back_button
+touch("* id:'ano'")
+query("*")
+touch("* id:'alterar'")
+
+touch("* id:'alterar'")
+exit
+start_test_server_in_background
+touch("* id:'consulta'")
+touch("* id:'alterar'")
+start_test_server_in_background
+touch("* id:'consulta'")
+touch("* text:'ABC0101'")
+touch("* id:'ano'")
+exit
+start_test_server_in_background
+touch("* id:'consulta'")
+touch("* text:'ABC0101'")
+query("* id:ano'",setText:"#{9999}")
+query("* id:'ano",setText:"#{9999}")
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+query("*")
+touch("* id:'deletar'")
+exit
+reinstall_apps
+start_test_server_in_background
+exit
+query("*")
+query("*")
+start_test_server_in_background
+touch("* id:'consulta'")
+touch("* text:'ABC0201'")
+touch("* id:'deletar'")
+touch("* text:'abdc123'")
+exit
+reinstall_apps
+exit
